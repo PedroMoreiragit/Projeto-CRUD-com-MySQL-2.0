@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 4px;
+    color: #363636;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 70px;
+}
+.text-welcome{
+    text-align: center;
+    margin-top: 100px;
+}
+.new-user{
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+.input-b{
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+}
+form input{
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+.btn-new-user{
+    text-decoration: none;
+    background-color: rgb(19, 146, 19);
+    color: white;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-new-user:hover{
+    background-color: rgb(0, 180, 0);
+}
+.list-user{
+    text-align: center;
+    margin-top: 30px;
+}
+.center-table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 80%; 
+}
+
+.center-table th, .center-table td {
+
+    padding: 10px;
+    text-align: left;
+}
+
+.center-table th {
+    background-color: #f2f2f2;
+}
+.center-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.btn-editar{
+    text-decoration: none;
+    background-color: rgb(32, 19, 146);
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-excluir{
+    text-decoration: none;
+    background-color: rgb(146, 19, 19);
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.alert-danger{
+    
+    margin-top: 20px;
+    border: 1px solid rgb(255, 1, 1);
+    background-color: rgba(255, 0, 0, 0.534);
+    width: 400px;
+    height: 30px;
+    text-align: center;
+
+}
+.alert{
+    margin-left: 468px;
+}
